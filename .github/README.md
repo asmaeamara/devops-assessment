@@ -13,6 +13,16 @@
 
 ## Objectif
 
+Le but est de voir comment vous abordez un sujet technique, comprendre les problèmes que vous rencontrez et votre manière de les résoudre.
+
+Les pré-requis et les suggestions sont là pour vous faire gagner du temps, vous pouvez utiliser d'autres outils si vous êtes plus à l'aise avec.
+
+## Rendu 
+
+Procédure expliquant la mise en oeuvre de la solution. Un simple fichier texte est suffisant.
+
+## Exercice
+
 Déployer un service web sous Docker dans le cloud et récupérer les métriques Node.js sur Grafana 
 
 - Récupérer le projet https://github.com/NeoSpheres/devops-assessment
@@ -52,6 +62,14 @@ Déployer un service web sous Docker dans le cloud et récupérer les métriques
 
 ## Bonus
 
+- Build automatique du conteneur lors d'un push    
+
+- Automatiser le déploiement du conteneur
+    - Idées : 
+        - Ansible
+        - Github Actions
+        - Terraform
+
 - Exposer le service sur le port 443 et sécuriser le trafic avec HTTPS (Nginx, Haproxy, Openssl, Let’s Encrypt)
     - Idées pour exposer le service: 
         - Nginx ou Haproxy
@@ -59,9 +77,3 @@ Déployer un service web sous Docker dans le cloud et récupérer les métriques
     - Idées pour sécuriser le trafic en HTTPS : 
         - Openssl (certificat auto-signé)
         - Let's Encrypt
-
-- Système de déploiement automatique du conteneur
-    - Idées : 
-        - Ansible
-        - Github Actions
-        - Terraform
