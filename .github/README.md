@@ -5,7 +5,7 @@
 - Read about Docker Multi-Stage build
 - AWS Account avec une instance EC2 gratuite
 - Grafana Cloud Account
-- Github Account (Facultatif)
+- Github Account
 
 ## Temps
 
