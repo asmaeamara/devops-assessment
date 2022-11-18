@@ -7,6 +7,10 @@
 - Grafana Cloud Account
 - Github Account (Facultatif)
 
+## Temps
+
+- 1h à 2h 
+
 ## Objectif
 
 Déployer un service web sous Docker dans le cloud et récupérer les métriques Node.js sur Grafana 
@@ -49,8 +53,15 @@ Déployer un service web sous Docker dans le cloud et récupérer les métriques
 ## Bonus
 
 - Exposer le service sur le port 443 et sécuriser le trafic avec HTTPS (Nginx, Haproxy, Openssl, Let’s Encrypt)
-    - Idées pour exposer le service: Nginx ou Haproxy dans le conteneur docker ou directement sur l'instance EC2
-    - Idées pour sécuriser le trafic en HTTPS : Openssl (certificat auto-signé), Let's Encrypt
+    - Idées pour exposer le service: 
+        - Nginx ou Haproxy
+        - Dans le conteneur docker ou sur l'instance EC2
+    - Idées pour sécuriser le trafic en HTTPS : 
+        - Openssl (certificat auto-signé)
+        - Let's Encrypt
 
 - Système de déploiement automatique du conteneur
-    - Idées : Ansible, Github Actions, Terraform
+    - Idées : 
+        - Ansible
+        - Github Actions
+        - Terraform
