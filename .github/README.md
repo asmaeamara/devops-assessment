@@ -1,15 +1,13 @@
 # Cas Pratique DevOps
 
-## Exercice
-
-Pré-requis : 
+## Pré-requis
 
 - AWS Account avec une instance EC2 gratuite
 - Grafana Cloud Account
 - Github Account
 - Read about Docker Multi-Stage build
 
-Objectif :
+## Objectif
 
 Déployer un service web sous Docker dans le cloud et récupérer les métriques Node.js sur Grafana 
 
@@ -47,7 +45,7 @@ Déployer un service web sous Docker dans le cloud et récupérer les métriques
         ![grafana-integration.png](grafana-integration.png)
         
 
-Bonus : 
+## Bonus
 
 - Exposer le service sur le port 443 et sécuriser l’accès avec HTTPS (Nginx, Haproxy, Openssl, Let’s Encrypt)
 - Système de déploiement automatique du conteneur (Ansible, Github Actions, Terraform)
