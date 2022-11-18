@@ -54,7 +54,7 @@ Déployer un service web sous Docker dans le cloud et récupérer les métriques
     
     ![aws.png](aws.png)
     
-- Récupérer les métriques NodeJS dans Grafana en suivant le guide d’intégration sur votre instance Grafana (https://<INSTANCE-NAME>.grafana.net/a/grafana-easystart-app/nodejs).
+- Récupérer les métriques NodeJS dans Grafana en suivant le guide d’intégration sur votre instance Grafana (https://INSTANCE-NAME.grafana.net/a/grafana-easystart-app/nodejs).
     - Le conteneur expose “/metrics” (Etape 2)
         
         ![grafana-integration.png](grafana-integration.png)
