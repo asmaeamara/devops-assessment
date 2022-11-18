@@ -62,18 +62,17 @@ Déployer un service web sous Docker dans le cloud et récupérer les métriques
 
 ## Bonus
 
-- Build automatique du conteneur lors d'un push    
+- Build automatique du conteneur lors d'un push
 
 - Automatiser le déploiement du conteneur
-    - Idées : 
+    - Suggestions : 
         - Ansible
         - Github Actions
         - Terraform
 
-- Exposer le service sur le port 443 et sécuriser le trafic avec HTTPS (Nginx, Haproxy, Openssl, Let’s Encrypt)
-    - Idées pour exposer le service: 
+- Exposer le service sur le port 443 et sécuriser le trafic avec HTTPS.
+    - Suggestions: 
         - Nginx ou Haproxy
         - Dans le conteneur docker ou sur l'instance EC2
-    - Idées pour sécuriser le trafic en HTTPS : 
         - Openssl (certificat auto-signé)
         - Let's Encrypt
