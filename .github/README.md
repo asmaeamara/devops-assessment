@@ -62,7 +62,10 @@ Déployer un service web sous Docker dans le cloud et récupérer les métriques
 
 ## Bonus
 
-- Build automatique du conteneur lors d'un push
+- Au push sur Github, automatiser le build du conteneur et sa publication sur un registry :
+    - Suggestions :
+        - Github Actions
+        - Registry Github (ghcr.io) ou Docker Hub
 
 - Automatiser le déploiement du conteneur
     - Suggestions : 
